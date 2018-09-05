@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "087a08729d36fee7261c4e50527886d054c31162b6b0812920efcf617f25a8bf"
+            "sha256": "d33393d25515dc59b878dce05a03bb8aca8d5782da9596431fc4a7401c313689"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -104,6 +104,7 @@
             "version": "==3.2.0"
         },
         "fx-usage-report": {
+            "editable": true,
             "path": "."
         },
         "happybase": {
@@ -558,7 +559,7 @@
                 "sha256:6bd0f6ad48ec2aa117d3d141940d484deccda84d4fcd884f5c3d93c23ecd8c79",
                 "sha256:8ad8c4783bf61ded74527bffb48ed9b54166685e4230386a9ed9b1279e2df5b1"
             ],
-            "markers": "python_version < '3'",
+            "markers": "python_version < '3.4'",
             "version": "==1.1.6"
         },
         "funcsigs": {
@@ -595,7 +596,7 @@
                 "sha256:64b28eec5e78e7510698f6d4da08800a5c575caa4a286c93d651c5d3ff7b6794",
                 "sha256:b146c751ea45cad6188dd6cf2d9b757f6f4f8d6ffb96a023e6f2e26eea02a72c"
             ],
-            "markers": "python_version < '3'",
+            "markers": "python_version < '3.3'",
             "version": "==1.0.22"
         },
         "jinja2": {

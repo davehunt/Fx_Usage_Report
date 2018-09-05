@@ -7,7 +7,7 @@ name = "pypi"
 arrow = "==0.10.0"
 click = "*"
 click-datetime = "*"
-fx-usage-report = {path = "."}
+fx-usage-report = {editable = true, path = "."}
 numpy = "==1.13.3"
 pyspark = "==2.2.0.post0"
 python-moztelemetry = "==0.8.9"
