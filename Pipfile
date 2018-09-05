@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+arrow = "==0.10.0"
+click = "*"
+click-datetime = "*"
+fx-usage-report = {path = "."}
+numpy = "==1.13.3"
+pyspark = "==2.2.0.post0"
+python-moztelemetry = "==0.8.9"
+scipy = "==1.0.0rc1"
+
+[dev-packages]
+coverage = "*"
+mock = "*"
+moto = "==1.2.0"
+pytest = "*"
+pytest-cov = "*"
+pytest-timeout = "*"
+
+[requires]
+python_version = "2.7"
